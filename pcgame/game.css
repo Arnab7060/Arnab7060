@@ -1,0 +1,63 @@
+body{
+	margin : 10px;
+	margin-left : 30px;
+	background-color : #151518;
+	font-family : "Oswald" ,sans-serif;
+}
+
+h1{
+	color : #FFFDDD;
+}
+
+
+#bck {
+	width : 900px;
+	height : 500px;
+	position : absolute;
+	left : 200px;
+	top : 100px;
+	border-style : ridge;
+	border-width : 5px;
+	border-color : #303035;
+	opacity : 0.1;
+	cursor : crosshair ;
+	
+}
+
+#ctrg {
+	width : 30px;
+	height : 50px;
+	position : absolute;
+	left : 640px;
+	top : 330px;
+	z-index : 4;
+	cursor : crosshair ;
+}
+#irn {
+	width : 30px;
+	height : 50px;
+	position : absolute;
+	left : 640px;
+	top : 330px;
+	z-index : 3;
+	cursor : crosshair ;
+}
+
+#playbt{
+	width : 50px;
+	font-size : 15px;
+	background-color : #252538;
+	color : #FFFFFD;
+	border-style : none;
+}
+#psbt{
+	width : 60px;
+	margin-left : 20px;
+	font-size : 15px;
+	background-color : #252538;
+	color : #FFFFFD;
+	border-style : none;
+}
+#score {
+	color : #FFFFFD;
+}

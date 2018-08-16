@@ -1,0 +1,406 @@
+@font-face {
+	font-family : oswald;
+	src : url("Oswaldme.ttf");
+}
+
+
+body{
+	margin : 0px;
+	padding : 0px;
+	background-color : #151518;
+	font-family : oswald ;
+}
+
+#mculogo {
+	width : 300px;
+	margin : 10px;
+}
+
+#mvlg {
+	width : 146px;
+	position : absolute ;
+	left : 12px;
+	top : 13px;
+}
+
+#theme {
+	position : absolute;
+	right : 150px;
+	top : 17px;
+	padding : 0px;
+	height : 88px;
+	border-radius : 10%;
+}
+#thlst {
+	font-size : 19px;
+	list-style : none;
+	padding : 10px;
+	margin-top : -12px;
+	text-align : center;
+	font-weight : bold;
+	color : #FFFFFD;
+}
+#dth {
+	background-color : #151518;
+	color : #FFFFFD;
+	padding-left : 5px;
+	padding-right : 5px;
+	border-radius : 10%;
+}
+#lth {
+	background-color : #FEFEFE;
+	color : #101011;
+	padding-left : 5px;
+	padding-right : 5px;
+	border-radius : 10%;
+}
+#dth:hover {
+	cursor : pointer;
+	background-color : #353538;
+	color : #EEEEEB;
+}
+#lth:hover {
+	cursor : pointer;
+	background-color : #CDCDCD;
+	color : #303033;
+}
+
+#dnt {
+	position : absolute;
+	right : 20px;
+	top : -5px;
+	font-size : 20px;
+	font-weight : bold;
+	font-family : "Oswald" , sans-serif;
+	color : #FFFFFD;
+	text-align : right ;
+}
+
+
+
+.bar {
+	background-color : #ED1D24;
+}
+
+#topbar1 {
+	height : 39px;
+	margin-left : 0px;
+	margin-right : 0px;
+	margin-top : 5px;
+	width : 1349;
+}
+
+#tpbarhd {
+	font-size : 25px;
+	font-family : "Oswald" , sans-serif;
+	margin-top : 0px;
+	position : absolute ;
+	top : 93px;
+	left : 0px;
+	color : #EDCDCD;
+}
+
+#mvs{
+	width : 120px;
+	padding-left : 10px;
+	padding-right : 20px;
+}
+#chr{
+	position : absolute;
+	left : 100px;
+	top : 0px;
+	padding-left : 10px;
+	padding-right : 20px;
+	width : 120px;
+}
+#upmv{
+	position : absolute;
+	left : 250px;
+	top : 0px;
+	padding-left : 10px;
+	padding-right : 20px;
+	width : 180px;
+}
+#tvs{
+	position : absolute;
+	left : 460px;
+	top : 0px;
+	padding-left : 10px;
+	padding-right : 20px;
+	width : 100px;
+}
+#gm{
+	position : absolute;
+	left : 590px;
+	top : 0px;
+	padding-left : 10px;
+	padding-right : 20px;
+	width : 70px;
+}
+#pgm{
+	position : absolute;
+	left : 690px;
+	top : 0px;
+	padding-left : 10px;
+	padding-right : 20px;
+	width : 50px;
+}
+#pgm .ttip{
+	visibility : hidden;
+}
+
+#mvlogo{
+	width : 90px;
+	padding : 2px;
+	margin : 0px;
+	margin-top : 0px;
+	position : absolute;
+	left : 1240px;
+	opacity : 0.8;
+}
+#mvlogo:hover {
+	left : 1240px;
+	margin-top : 0px;
+	border-style : none;
+	border-width : 3px;
+	border-color : #CB0B02;
+	border-bottom-style : none;
+	border-top-style : none;
+	opacity : 1;
+}
+
+.opt{
+	position : absolute;
+	top : 131px;
+	margin : 0px;
+	width : 980px;
+	background-color : #000002;
+	color : #FFFFFF;
+	border-right-style : ridge;
+	border-right-width : 4px;
+	border-right-color : #353540;
+	padding : 50px 50px 30px 20px;
+	font-family : "Oswald" , sans-serif;
+	font-size : 17px;
+}
+
+#mvsd {
+	display : block;
+}
+#chrd{
+	display : none;
+}
+#upmvd{
+	display : none;
+}
+#tvsd{
+	display : none;
+}
+#gmd{
+	display : none;
+}
+
+#mvscnt {
+	display : block;
+}
+#chrcnt {
+	display : none;
+}
+#upcnt {
+	display : none;
+}
+#tvcnt {
+	display : none;
+}
+#gmcnt {
+	display : none;
+}
+
+
+
+#mvs:hover{
+	background-color : #ED1D24;
+	color : #FFFFFD;
+	cursor : pointer ;
+}
+#chr:hover{
+	background-color : #ED1D24;
+	color : #FFFFFD;
+	cursor : pointer ;
+}
+#upmv:hover{
+	background-color : #ED1D24;
+	color : #FFFFFD;
+	cursor : pointer ;
+}
+#tvs:hover{
+	background-color : #ED1D24;
+	color : #FFFFFD;
+	cursor : pointer ;
+}
+#gm:hover{
+	background-color : #ED1D24;
+	color : #FFFFFD;
+	cursor : pointer ;
+}
+#pgm:hover{
+	background-color : #ED1D24;
+	color : #FFFFFD;
+	cursor : pointer ;
+}
+#pgm:hover .ttip {
+	visibility : visible;
+	position : absolute;
+	font-size : 15px;
+	top : 35px;
+	left : -5px;
+	width : 80px;
+	z-index : 2;
+	background-color : #DDDDDD;
+	text-align : center;
+	border-style : solid;
+	border-width : 1px;
+	border-color : #252525;
+	border-radius : 10%;
+	padding-bottom : 3px;
+}
+
+#gmtip {
+	color : #353535;
+	text-decoration : none;
+}
+#gmtip:hover {
+	color : #000000;
+}
+
+#ftr{
+	position : fixed;
+	bottom : 0px;
+	left : 0px;
+	right : 0px;
+	height : 30px;
+	border-top-color : #555557;
+	border-top-style : ridge;
+	border-top-width : 1px;
+	background-color : #000000;
+	color : #CCCCCC;
+	font-weight : bold;
+	font-size : 15px;
+	text-align : right;
+	padding : 100px;
+	padding-top : 5px;
+	padding-bottom : 10px;
+}
+
+.mhl {
+	text-decoration : none;
+	color : #DDDDDB;
+}
+
+.mhl:hover {
+	color:#FFFFFF;
+}
+
+
+.pstr {
+	height : 175px;
+	border-style : ridge;
+	border-width : 3px;
+	border-color : #303035;
+}
+
+.trl {
+	width : 300px;
+	height : 180px;
+	position : absolute;
+	right : 80px;
+}
+
+.sgmnt {
+	border-bottom-color : #353540;
+	border-bottom-style : ridge;
+	border-bottom-width : 3px;
+}
+
+#bct {
+	text-decoration : none;
+	position : relative;
+	left : -300px;
+	color : #CCCCCC;
+}
+#bct:hover {
+	cursor : pointer;
+	color : #FFFFFF;
+}
+
+.cntnt {
+	width : 280px;
+	height : 400px;
+	position : fixed ;
+	right : 0px;
+	padding : 10px;
+	padding-bottom : 30px;
+	padding-top : 0px;
+	padding-left : 5px;
+	color : #CCCCCB;
+	background-color : #151518 ;
+	font-size : 14px;
+}
+
+.cnl {
+	list-style-type : none;
+	margin-left : -25px;
+	margin-top : 5px;
+}
+#chcnl {
+	column-count : 2;
+}
+.cntlst {
+	color : #CCCCCB;
+	text-decoration : none;
+}
+.cntlst:hover {
+	color : #FFFFFF;
+}
+
+.pstr2 {
+	border-style : ridge;
+	height : 175px;
+	border-width : 3px;
+	border-color : #303035;
+	position : absolute;
+	left : 200px;
+}
+
+.mhlc {
+	text-decoration : none;
+	color : #DDDDDB;
+	position : absolute;
+	left : 200px;
+}
+
+.chrp {
+	margin-top : 80px;
+}
+
+.trlup {
+	width : 600px;
+	height : 360px;
+	margin-left : 100px;
+	margin-top : 30px;
+}
+.upcp {
+	position : absolute;
+	left : 200px;
+	margin-right : 50px;
+}
+
+
+
+
+
+
+
+
+
+
